@@ -3,17 +3,5 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  'github/copilot.vim',
-  'skywind3000/asyncrun.vim',
-  {
-    'okuuva/auto-save.nvim',
-    cmd = 'ASToggle', -- optional for lazy loading on command
-    event = { 'InsertLeave', 'TextChanged' }, -- optional for lazy loading on trigger events
-    opts = {
-      -- your config goes here
-      -- or just leave it empty :)
-    },
-  },
-  'rebelot/kanagawa.nvim',
   'ellisonleao/gruvbox.nvim',
 }
