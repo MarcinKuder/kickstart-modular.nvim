@@ -4,4 +4,5 @@
 -- See the kickstart.nvim README for more information
 return {
   'ellisonleao/gruvbox.nvim',
+  'github/copilot.vim',
 }
